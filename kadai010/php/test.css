@@ -1,0 +1,53 @@
+fieldset{ 
+    /* margin: 40px; 
+    padding-top: 40px;  */
+    width: 800px;
+    }
+    
+#body{
+background-image: url(image/AdobeStock_163935716.jpeg);
+min-height: 100vh;
+    }
+
+input[type="text"],
+input[type="email"],
+#nengo1,
+#sex{
+    background-color: rgba(255,255,255,.5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size:1rem;
+    width: 100%;
+    max-width: 240px;
+}
+
+label{
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+
+input[type="submit"]{
+    display       : inline-block;
+    border-radius : 5%;          /* 角丸       */
+    font-size     : 18pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 12px;   /* 余白       */
+    background    : #000066;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+    border        : 2px solid #000066;    /* 枠の指定 */
+  }
+  .input[type="submit"]:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    color         : #000066;     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+  }
+
+
+
